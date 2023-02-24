@@ -1,4 +1,4 @@
-# RTI-CNC-Tool Template Installation
+# RTI-CNC How to use CAM Templates
 <p float="center">
   <img src= "img\Fusion360-Logo.png" height="32%" />
   <img src="img\Amana-Tools-Logo.png" hieght="32%" /> 
