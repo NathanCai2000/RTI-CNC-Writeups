@@ -94,4 +94,69 @@ You can optionally draw in areas you want to place work holding to help visualiz
 
     1. In the dropdown on the the top left, labeled: 'Design', select 'Manufacturing'.
 
-    
+    2. Right Click the 'Setups' box in the top left of the work space.
+    3. In the dropdwon tab, select 'New Setup".
+
+    4. Be sure that in the 'Setup' Section, that the operation type is set to 'Milling'
+
+    5. In the new Setup tab on the right, select the 'Select' box in the 'Model' section of the tab.
+
+This should create an automatic bouding box around all your parts.
+
+    6. In the 'Work Coordinate System (WCS)' section, click the box next to 'Stock Point'.
+
+    7. Points will appear on the bounding box. Select the TOP LOWER LEFT corner point.
+
+```BE SURE that the point selected is the point in the TOP LOWER LEFT point of the work piece.``` This should be the point with the positive Z-axis facing up, the positive X-axis facing right, and the positive Y-axis facing towards the back.
+
+    8. Double check the correct point has been selected, and thtat all pieces are selected.
+
+    9. In the top of the Setup window, switch to the 'Stock' tab.
+
+    10. In the 'Mode' option, select 'Fixed sized box'.
+
+    11. Re-measure the dimensions of the material to cut.
+
+    12. Set the values in the 'Width(X)' and 'Depth(Y)' options to the dimensions of the material to cut.
+
+    13. Set the 'Model Position' of 'X' to 'Offset from left side(-X)'.
+
+    14. In the new 'Offset' section, set the value to "0.375in".
+
+    15. Set the 'Model Position' of 'Y' to 'Offset from front side(-Y)'.
+
+    16. In the new 'Offset' section, set the value to "0.375in".
+
+    17. Set the value for 'Height(Z)'.
+        a) To get the Z hieght of the material, use calipers to measure EACH corner of the material.
+
+        b) Use the measurement of the corner Closest to the all the parts laid out on the sheet, or the one with the lowest value.
+
+    18. Set the 'Model Position' of 'Z' to 'Offset from top (+Z)'.
+
+    19. In the new 'Offset' section, set the value to "0in".
+
+    20. In the top of the Setup window, switch to the 'Post Processing' tab. 
+
+    21. Under the 'Machine WCS' section, set 'WCS offset' to "1".
+
+    22. Double check all previous steps.
+```WARNING: Most potential CNC crashing and cutting issues can stem from incorrectly inputs during the New Setup process.``` Double checking this section is ```CRUCIAL``` to ensuring safe operation and minimize damage to the machine.
+
+    23. Click 'OK' at the bottom right of the window.
+
+    24. An error may popup saying that the parts exceed the Z-Height, you can ignore it and click 'OK'.
+
+This tutorial is mainly focused on CNCing for 2D parts and operations. 2.5D and potential 3D operations will be explored in later chapters.
+
+    25. Under the 'Setups' folder, there should be a new folder with the name of the new setup you just made.
+
+    26. Right Click the new setup, hover over 'Create from Template' in the popup, and Click 'Select Template'.
+
+    27. In the 'Template Library' window, select the template with the correct material and appropriate material thickness.
+
+    28. The selected tempalte should change color. Once selected, Click 'Select' on the bottom right in the window.
+
+    29. This should create a series of operations under the setup folder.
+
+These new operations are the cutting instructions that the CNC will read during cutting. They will all contain a red error symbol on them at initial import. This is because the operations are not assigned to anything yet. We will explore how to resolve this in [How to use templates](How_To_Use_Templates).
