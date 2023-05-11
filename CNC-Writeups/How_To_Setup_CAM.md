@@ -17,22 +17,45 @@ Download a free copy of Fusion360 from [here](https://www.autodesk.com/education
     3. Realign the prespective such that the 'Front' of the piece is facing the positive X-axis, and the 'Top' is facing the positive Z-axis.
 
       a) Hover over the prespective cube on the top-right.
+<p float="center">
+  <img src= "img\How_To_Setup\3a.png" width="50%" />
+</p>
 
       b) Right-Click the face of the cube facing the positive Z-axis.
+<p float="center">
+  <img src= "img\How_To_Setup\3b.png" width="50%" />
+</p>
 
       c) In the pop-up, select 'Set as Top'.
+<p float="center">
+  <img src= "img\How_To_Setup\3c.png" width="50%" />
+</p>
 
-      d) Right-Click the face of the cube facing the positive X-axis.
+      d) Right-Click the face of the cube facing the negative Y-axis (Positive X-axis acing right and Positive Z-axis facing up).
+<p float="center">
+  <img src= "img\How_To_Setup\3d.png" width="50%" />
+</p>
 
       e) In the pop-up, select 'Set as Front'.
+<p float="center">
+  <img src= "img\How_To_Setup\3e.png" width="50%" />
+</p>
+
+      ***Steps d) and e) can be skipped if the 'front' position had already been set correctly.888
 
 This step is to ensure that later in the CAM setup, the work material's axes are naturally facing the correct directions. This is not strictly necessary, however, it does simplfy the process and ensures consistancy.
 
     4. Save the file and give it a name.
 
     5. Create a new Sketch on the XY plane.
+<p float="center">
+  <img src= "img\How_To_Setup\5.png" width="50%" />
+</p>
 
     6. Measure you the material you want to cut, and create a rectangle or shape with the same dimensions of the material.
+<p float="center">
+  <img src= "img\How_To_Setup\6.png" width="50%" />
+</p>
 
 The rectangle/shape you draw in the sketch will act as a ```Bounding Box```. We will use this as a conveniant way to lineup parts in the work material, and ensure that all parts have enough room for cutting.
 
@@ -45,6 +68,9 @@ You can optionally draw in areas you want to place work holding to help visualiz
 ```Incorrect measurements may result in a failed cut and a HIGH likeliness of damaging the machine. Besure also to check if you are using the correct units. Metric or Imperial Units!```
 
     8. Once dimensions are confirmed, exit the sketch.
+<p float="center">
+  <img src= "img\How_To_Setup\8.png" width="50%" />
+</p>
 
     9. Import parts to be cut as new components.
 
@@ -59,7 +85,12 @@ You can optionally draw in areas you want to place work holding to help visualiz
 
       e) Do steps b) and c) for all parts you want to cut with this material.
 
+<p float="center">
+  <img src= "img\How_To_Setup\9.png" width="50%" />
+</p>
+
     10. In the main workspace. Select the 'MODIFY' tab.
+    
 
     11. In the dropdown window. Select 'Align'.
 
