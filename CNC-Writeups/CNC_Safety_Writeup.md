@@ -1,8 +1,6 @@
 # RTI-CNC-Safety-Writeup
 <p float="center">
-  <img src= "img\Fusion360-Logo.png" height="32%" />
-  <img src="img\Amana-Tools-Logo.png" hieght="32%" /> 
-  <img src="img\Carbide3D-Logo.png" height="32%" />
+  <img src="img\MakerLab_Logo.jpg" height="32%" />
 </p>
 
 # CNC and Workshop Tools Rules

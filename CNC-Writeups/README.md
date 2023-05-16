@@ -11,7 +11,7 @@ This is a repository of some documentation for the CNC router and other machines
 
 ## Table of Contents:
 ### CNC and Tool Safety Documentation:
-> CNC Safety Writeup (WIP)
+> [CNC Safety Writeup](CNC_Safety_Writeup.md)
 
 > CNC Material Restrictions and Dangers (WIP)
 
@@ -24,11 +24,9 @@ This is a repository of some documentation for the CNC router and other machines
 > [How to install CAM templates to Fusion360](Tool_Template_Installation.md)
 
 #### [Chapter 2] Setting Up The CAM:
-> [How to setup CAM in Fusion360](How_To_Setup_CAM.md) (WIP)
+> [How to setup CAM in Fusion360](How_To_Setup_CAM.md)
 
 > [How to use CAM templates in Fusion360](How_To_Use_Templates.md) (WIP)
-
-> Material and Order of Operations considerations (WIP)
 
 > How to Simulate and Review the CAM pathing (WIP)
 
@@ -45,3 +43,13 @@ This is a repository of some documentation for the CNC router and other machines
 > How to set zeros in Carbide Motion (WIP)
 
 > How to run an operation in Carbide Motion (WIP)
+
+#### [Chapter 4] Further understanding for CNC:
+
+> Material and Order of Operations considerations (WIP)
+
+> In intro to simple 2.5D operations
+
+> Basics to CNC: Feeds and Speeds
+
+> Material Characteristics
