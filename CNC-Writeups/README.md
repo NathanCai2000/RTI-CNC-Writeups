@@ -28,9 +28,9 @@ This is a repository of some documentation for the CNC router and other machines
 
 > [How to use CAM templates in Fusion360](How_To_Use_Templates.md) (WIP)
 
-> How to Simulate and Review the CAM pathing (WIP)
+> [How to Simulate and Review the CAM pathing](How_To_Simulate.md) (WIP)
 
-> How to export CAM from Fusion360 to Carbide Motion (WIP)
+> [How to export CAM from Fusion360 to Carbide Motion](How_To_Export.md) (WIP)
 
 #### [Chapter 3] CNC Setting up the CNC for cutting:
 
