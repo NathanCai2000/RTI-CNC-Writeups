@@ -6,4 +6,4 @@ This is a documentation repository for equipment usage and CAD models for Brande
 
 ## Table of Contents:
 > [CNC Safety Writeups](CNC-Writeups)
-> [CAD models of items in Automation Lab Inventory](/AsortedParts)
+> CAD models of items in Automation Lab Inventory - > Asorted Parts
